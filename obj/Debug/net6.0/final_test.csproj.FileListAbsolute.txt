@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\bin\Debug\net6.0\final_test.exe
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\bin\Debug\net6.0\final_test.deps.json
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\bin\Debug\net6.0\final_test.runtimeconfig.json
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\bin\Debug\net6.0\final_test.dll
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\bin\Debug\net6.0\final_test.pdb
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\obj\Debug\net6.0\final_test.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\obj\Debug\net6.0\final_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\obj\Debug\net6.0\final_test.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\obj\Debug\net6.0\final_test.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\obj\Debug\net6.0\final_test.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\obj\Debug\net6.0\final_test.dll
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\obj\Debug\net6.0\refint\final_test.dll
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\obj\Debug\net6.0\final_test.pdb
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\obj\Debug\net6.0\final_test.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\Geek Brains\final_test\obj\Debug\net6.0\ref\final_test.dll
