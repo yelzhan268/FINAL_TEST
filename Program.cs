@@ -34,6 +34,15 @@ string[] FindThreeSymbol(string[] stringArray)
     return arrayThreeSymbol;
 }
 
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.WriteLine($"{array[i]}, ");
+    }
+    System.Console.WriteLine();
+}
+
 
 System.Console.WriteLine("Введите набор символов через ',': ");
 string symbol = Console.ReadLine();
