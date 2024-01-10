@@ -15,7 +15,7 @@ string[] FindThreeSymbol(string[] stringArray)
     int count = 0;
     for (int i = 0; i < stringArray.Length; i++)
     {
-        string sym = stringArray[i]
+        string sym = stringArray[i];
         if (sym.Length <= 3)
         {
             count++;
@@ -43,6 +43,10 @@ void PrintArray(string[] array)
     System.Console.WriteLine();
 }
 
-
 System.Console.WriteLine("Введите набор символов через ',': ");
 string symbol = Console.ReadLine();
+string[] stringArray = StrArray(symbol);
+System.Console.Write("Введенный массив - ");
+PrintArray(stringArray);
+System.Console.Write("Введеные символы длина которых меньше, либо равна 3 символам - ");
+PrintArray(FindThreeSymbol(stringArray));
