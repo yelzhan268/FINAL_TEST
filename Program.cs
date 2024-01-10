@@ -10,6 +10,30 @@ string[] StrArray(string symbol)
     return stringArray;
 }
 
+string[] FindThreeSymbol(string[] stringArray)
+{
+    int count = 0;
+    for (int i = 0; i < stringArray.Length; i++)
+    {
+        string sym = stringArray[i]
+        if (sym.Length <= 3)
+        {
+            count++;
+        }
+    }
+    string[] arrayThreeSymbol = new string[count];
+    for (int i = 0, j = 0; i < stringArray.Length; i++)
+    {
+        string sym = stringArray[i];
+        if (sym.Length <= 3)
+        {
+            arrayThreeSymbol[j] = sym;
+            j++;
+        }
+    }
+    return arrayThreeSymbol;
+}
+
 
 System.Console.WriteLine("Введите набор символов через ',': ");
 string symbol = Console.ReadLine();
