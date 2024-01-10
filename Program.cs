@@ -6,7 +6,7 @@
 string[] StrArray(string symbol)
 {
     string[] stringArray = new string[symbol.Length];
-    stringArray = symbol.Split(",");
+    stringArray = symbol.Split(", ");
     return stringArray;
 }
 
@@ -38,15 +38,29 @@ void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        System.Console.WriteLine($"{array[i]}, ");
+        if (i == 0)
+        {
+            System.Console.Write($"[\"{array[i]}\", ");
+        }
+        else
+        {
+            if (i == (array.Length - 1))
+            {
+                System.Console.Write($"\"{array[i]}\"]");
+            }
+            else
+            {
+                System.Console.Write($"\"{array[i]}\", ");
+            }
+        }
     }
     System.Console.WriteLine();
 }
 
-System.Console.WriteLine("Введите набор символов через ',': ");
+System.Console.Write("Введите набор символов через ', ': ");
 string symbol = Console.ReadLine();
 string[] stringArray = StrArray(symbol);
 System.Console.Write("Введенный массив - ");
 PrintArray(stringArray);
-System.Console.Write("Введеные символы длина которых меньше, либо равна 3 символам - ");
+System.Console.Write("Массив символов длина которых меньше, либо равна 3 - ");
 PrintArray(FindThreeSymbol(stringArray));
